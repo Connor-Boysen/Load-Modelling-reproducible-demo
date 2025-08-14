@@ -1,0 +1,9 @@
+# 1) Open a fresh R session in a folder you want to use (it will make ./plots)
+# 2) Ensure packages (all CRAN):
+install.packages(c(
+  "dplyr","tidyr","tibble","ggplot2","lme4","broom.mixed",
+  "glmnet","mgcv","segmented","sandwich","lmtest","MASS","readr"
+))
+
+# 3) Source it
+source("reproducible_internship_demo.R")
